@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     box-shadow: 5px 5px 10px;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/022/863/505/non_2x/smooth-wave-gradient-mesh-background-abstract-design-illustration-on-soft-yellow-dark-orange-black-vibrant-blend-template-free-vector.jpg);
+   background-color: rgb(84, 124, 159);
     width: 100vw;
     height: 530px;
     text-align: center;
@@ -17,20 +17,16 @@ h3{
     color: gray;
 }
 .w2{
-    border-radius: 20px;
     width: 90px;
     height: 40px;
     padding: 5px 15px;
     outline: none;
-    position: relative;
-    color: #ff9a67;
-    border: none;
-    background-color: #bd5725;
+    color: rgb(255, 255, 255);
+    background-color: chocolate;
 }
-.w1 {
-    border-radius: 20px;
-    width: 150px;
-    height: 50px;
+.a1 {
+    width: 90px;
+    height: 30px;
     padding: 5px 15px;
     outline: none;
     position: relative;
@@ -39,18 +35,12 @@ h3{
     background-color: #ffffff;
 }
 h1{
-    font-style: italic;
     color: beige;
 }
 h2{
+    font-size: small;
     font-style: unset;
     color: beige;
-}
-.parent2 {
-    background-position: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 p{
     font-size:x-large;
@@ -61,4 +51,11 @@ b{
     font-size: medium;
     color: rgb(19, 18, 18);
     font-style: inherit;
+}
+.parent2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
 }
